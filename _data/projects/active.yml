@@ -49,3 +49,17 @@
     - name: Offsite Hospitality
       url: https://www.getoffsite.com
   lead: Curt Savoie
+- name: Cute Pets Boston
+  elevatorPitch: >-
+    Get cute pets at Boston shelters adopted by publicizing their photos on social media.
+  slackChannel: cute-pets-boston
+  repository: https://github.com/codeforboston/CutePetsBoston/
+  technologies: Python
+  lead: Binam and Jonny
+- name: Boston Circular Economy
+  elevatorPitch: >-
+    To connect residents to circular economy services and resources in the Greater Boston Area
+  slackChannel: circular-economy
+  repository: https://github.com/codeforboston/circular-economy
+  lead: Matt Clark
+
