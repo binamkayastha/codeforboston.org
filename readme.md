@@ -64,16 +64,22 @@ $> cd codeforboston.org
 $> git remote add upstream git@github.com:codeforboston/codeforboston.org.git
 ```
 
+Install the ruby bundles
+
+```
+$> bundle install
+```
+
 - Use Jekyll to build the site!
 
 ```
-$> $ jekyll build
+$> bundle exec jekyll build
 ```
 
 - Use Jekyll to start a small local web server to serve the site, reloading the build with changes you make to local files
 
 ```
-$> $ jekyll serve --livereload
+$> bundle exec jekyll serve --livereload
 ...lots of output...
 LiveReload address: http://127.0.0.1:35729
     Server address: http://127.0.0.1:4000/
